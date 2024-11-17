@@ -1,1 +1,1 @@
-# NBA-Score-Board
+# mini-Project2
