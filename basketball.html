@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="basketball.css">
+    </head>
+    <body>
+        <h2>BASKETBALL SCORES</h2>
+        <hr>
+        <div class="float-container">
+            <div class="float-child1" id ="FC1">
+                <h1>HOME</h1>
+                <div class="home-inner-container">
+                    <h3 id="home-score">0</h3>
+                </div>
+                <button onclick="onePlush()">1+</button>
+                <button onclick="twoPlush()">2+</button>
+                <button onclick="threePlush()">3+</button>
+    
+            </div>
+            <div class="float-child2" id="FC2">
+                <h1>GUEST</h1>
+                <div class="home-inner-container">
+                    <h3 id="guest-score">0</h3>
+                </div>
+                <button onclick="onePlusg()">1+</button>
+                <button onclick="twoPlusg()">2+</button>
+                <button onclick="threePlusg()">3+</button>
+    
+            </div>
+            <button onclick="newGame()">New Game</button>
+            <button onclick="endGame()">End Game</button>
+
+        </div>
+        
+        <script src="basketball.js"></script>
+    </body>
+</html>
